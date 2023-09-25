@@ -8,7 +8,6 @@ app.use(cors())
 
 const username = "Monu2003"
 const password = "ManishPatil131225"
-
 app.get('/deals', async (req, res) => {
     try {
         const body = {

@@ -5,7 +5,7 @@ import Header from "./components/Header"
 const App = () => {
 
   const [deals, setDeals] = useState(null)
-
+ 
 
 
   const getDeals = async () => {

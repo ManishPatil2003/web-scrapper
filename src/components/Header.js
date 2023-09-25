@@ -2,7 +2,7 @@ import logo from "../images/dealfinder.png"
 
 
 const Header = () => {
-
+ 
     const today = new Date().toString().slice(0, 10)
     return (
         <header>
