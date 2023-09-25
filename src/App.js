@@ -22,7 +22,6 @@ const App = () => {
     getDeals()
   }, [])
 
-
   return (
     <div className="App">
       <Header />

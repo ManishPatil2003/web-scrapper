@@ -6,7 +6,7 @@ const Header = () => {
     const today = new Date().toString().slice(0, 10)
     return (
         <header>
-            <div className="text-container">
+        <div className="text-container">
                 <h1>Deal finder</h1>
                 <p>{today}</p>
             </div>

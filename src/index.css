@@ -1,16 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(235,235,235);
+    background-color: rgb(235, 235, 235);
     display: flex;
     justify-content: center;
     /* height: 100vh; */
     align-items: center;
-    font-family:'Poppins' , sans-serif;
-    color: rgb(50,42,51);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(50, 42, 51);
 }
 
 .App {
@@ -18,15 +17,15 @@ body {
     height: 900px;
     border-radius: 50px;
     background: radial-gradient(circle,
-        rgb(236,236,236) 0%,
-        rgb(255,255,255) 80%,
-    );
+            rgb(236, 236, 236) 0%,
+            rgb(255, 255, 255) 80%,
+        );
     padding: 0px 30px;
     margin-top: 10px;
     box-shadow: 2px 4px 15px rgb(2, 2, 2);
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -34,28 +33,30 @@ header{
 }
 
 header p {
-    color : rgb(133, 133, 133)
-
+    color: rgb(133, 133, 133)
 }
+
 .logo-container {
     height: 50px;
     position: relative;
     top: 20px;
     right: 10px;
 }
-.logo-container img{
+
+.logo-container img {
     height: 100%;
 }
-h2{
+
+h2 {
     font-weight: 400;
     margin-bottom: 0;
 }
 
-nav::-webkit-scrollbar{
+nav::-webkit-scrollbar {
     display: none;
 }
 
-nav{
+nav {
     display: flex;
     width: 330px;
     overflow-x: scroll;
@@ -63,9 +64,9 @@ nav{
     scrollbar-width: none;
 }
 
-button.primary{
+button.primary {
     border: none;
-    background-color: rgb(3.140,140);
+    background-color: rgb(3.140, 140);
     padding: 18px;
     font-size: 20px;
     margin-right: 5px;
@@ -73,80 +74,81 @@ button.primary{
     cursor: pointer;
 }
 
-button.primary:disabled{
-    background-color: rgb(255,255,255);
-    color: rgb(172,172,172);
+button.primary:disabled {
+    background-color: rgb(255, 255, 255);
+    color: rgb(172, 172, 172);
 }
 
-.card{
+.card {
     height: 150px;
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
 }
 
-.card .img-container{
+.card .img-container {
     height: 100%;
     width: 130px;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.card .img-container img{
+.card .img-container img {
     width: 150%;
 
 }
 
 .card h5,
-.card p{
+.card p {
     margin: 0;
 }
 
 .card h5 {
     font-size: 16px;
 }
+
 .card p {
     font-size: 16px;
     color: rgb(133, 133, 133);
 }
 
-.card .text-container{
+.card .text-container {
     width: 730px;
     padding: 0 15px;
-   
+
 }
 
 
-.circle{
+.circle {
     height: 30px;
     width: 30px;
     background-color: rgb(59, 168, 63);
     border-radius: 50px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.feed{
+.feed {
     height: 600px;
     overflow-y: scroll;
 }
 
-.card .info-container{
+.card .info-container {
     position: relative;
 }
 
-.card .info-container a{
+.card .info-container a {
     position: absolute;
-    
-    top :85px;
+
+    top: 85px;
     right: 5px;
     text-decoration: none;
-    color: rgb(50,43,51);
+    color: rgb(50, 43, 51);
 }

@@ -17,7 +17,7 @@ app.get('/deals', async (req, res) => {
             'query': 'deals of the day',
             'parse': true,
             'pages': 1,
-            
+
         }
 
 
